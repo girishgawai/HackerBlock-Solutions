@@ -1,0 +1,38 @@
+Given with n element of an array and a rotation factor r , you need to rotate the array r times.
+
+Input Format
+A number representing n length of array. N lines representing the n elements of the array. Third line represents a number r as the number of rotations for the array.
+
+Constraints
+n is less than 20000
+every element in the array is in integer range
+r is less than 100000
+
+Output Format
+The array after r rotations.
+
+Sample Input
+7
+1 
+2
+3
+4 
+5 
+6 
+7
+3
+Sample Output
+5 
+6 
+7 
+1 
+2 
+3 
+4
+Explanation
+Input: 1 2 3 4 5 6 7
+Output: 5 6 7 1 2 3 4
+Explaination
+rotate 1 steps to the right: [7,1,2,3,4,5,6]
+rotate 2 steps to the right: [6,7,1,2,3,4,5]
+rotate 3 steps to the right: [5,6,7,1,2,3,4]
