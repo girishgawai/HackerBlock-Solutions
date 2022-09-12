@@ -36,29 +36,7 @@ public class Non_Repeating_Character {
 	//		}
 	//	}
 
-	// yeh upr wala hi logic hai bs array ko traverse second lopp me starting se kra jara hai
-	//	public static void firstNonRepeatingChar(String str)
-	//	{
-	//		for (int i = 0; i < str.length(); i++) {
-	//			int countOfChar=0;
-	//			for (int j = 0; j < str.length(); j++) {
-	//				if(str.charAt(i)==str.charAt(j))
-	//				{
-	//					countOfChar++;
-	//				}	
-	//			}
-	//			
-	//			if(countOfChar==1)
-	//			{
-	//				System.out.println(str.charAt(i));
-	//				break;
-	//			}
-	//				
-	//		}
-	//	}
-
-
-	// ye logic v chlega
+	
 	public static String firstNonRepeatingChar(String str)
 	{
 		int flag=0;
