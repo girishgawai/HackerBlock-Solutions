@@ -1,5 +1,4 @@
 package linkedlist.qps;
-
 import java.util.Scanner;
 
 public class Linked_List_K_Append {
@@ -240,10 +239,9 @@ public class Linked_List_K_Append {
 		int appendIdx = 0;
 		if(k>n)
 		{
-			appendIdx = (Math.abs(n-k)%n)-1;
-			if(appendIdx==0)
-				return list;
-			System.out.println(appendIdx);
+			appendIdx = Math.abs(k-n -n);
+			
+//			System.out.println(appendIdx);
 		}
 		else
 			appendIdx = (Math.abs(n-k)%n);
@@ -260,7 +258,7 @@ public class Linked_List_K_Append {
 			prev = curr;
 			curr = curr.next;
 		}
-		System.out.println(end);
+//		System.out.println(end.data+"===");
 		if(end!=null)
 		{
 			temp = end.next;
