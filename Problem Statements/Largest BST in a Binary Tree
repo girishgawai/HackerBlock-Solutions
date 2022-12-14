@@ -1,0 +1,31 @@
+Given a Binary Tree, write a program that returns the size of the largest subtree which is also a Binary Search Tree (BST)
+
+Input Format
+The first line of input will contain an integer n. The next line will contain n integers denoting the the preorder traversal of the BT. The next line will contain n more integers denoting the inorder traversal of the BT.
+
+Constraints
+2 ≤ N ≤ 10^3
+
+Output Format
+A single integer denoting the size ( no of nodes in tree ) of largest BST in the given tree.
+
+Sample Input
+4
+60 65 50 70
+50 65 60 70
+Sample Output
+2
+Explanation
+The tree looks like
+
+             60
+          /      \
+       65           70
+     /           
+   50       
+The largest BST subtree is
+
+       65           
+     /           
+   50       
+which has the size 2 i.e. it has 2 nodes in it.
