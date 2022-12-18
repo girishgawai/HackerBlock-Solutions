@@ -1,0 +1,23 @@
+For each node in a binary search tree, create a new duplicate node, and insert the duplicate as the left child of the original node.
+
+Input Format
+Enter the number of nodes N and add N more numbers to the BST
+
+Constraints
+None
+
+Output Format
+Display the tree
+
+Sample Input
+3
+2
+1
+3
+Sample Output
+2 => 2 <= 3
+1 => 2 <= END
+1 => 1 <= END
+END => 1 <= END
+3 => 3 <=END
+END => 3 <=END
