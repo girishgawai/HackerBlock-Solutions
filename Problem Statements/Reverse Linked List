@@ -1,0 +1,17 @@
+Given the head of a singly linked list, reverse the list, and return the reversed list.
+
+Input Format
+Int n number of nodes in a linked list N numbers i.e. the value of n nodes
+
+Constraints
+The number of nodes in the list is the range [0, 5000].
+-5000 <= Node.val <= 5000
+
+Output Format
+print the reverse linked list
+
+Sample Input
+3
+1 2 3 
+Sample Output
+3 2 1 
