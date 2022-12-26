@@ -1,0 +1,15 @@
+Given a binary tree. Print the zig zag order i.e print level 1 from left to right, level 2 from right to left and so on. This means odd levels should get printed from left to right and even levels should be printed from right to left.
+
+Input Format
+Enter the values of all the nodes in the binary tree in pre-order format where true suggest the node exists and false suggests it is NULL
+
+Constraints
+None
+
+Output Format
+Display the values in zigzag level order in which each value is separated by a space
+
+Sample Input
+10 true 20 true 40 false false true 50 false false true 30 true 60 false false true 73 false false
+Sample Output
+10 30 20 40 50 60 73 
