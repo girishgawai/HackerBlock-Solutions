@@ -16,4 +16,4 @@ Sample Input
 Sample Output
 [1, 1, 2, 2, 3]
 Explanation
-Check which integer is present in both the arrays and add them in an array .Print this array as the ans.
+Check which integer is present in both the arrays and add them in an array .Print this array as ans.
