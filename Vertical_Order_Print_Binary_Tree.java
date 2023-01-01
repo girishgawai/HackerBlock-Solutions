@@ -138,7 +138,7 @@ public class Vertical_Order_Print_Binary_Tree {
 		Vertical_Order_Print_Binary_Tree LOTB = new Vertical_Order_Print_Binary_Tree();
 //		LOTB.Display();
 		
-//		System.out.println();
+		System.out.println();
 		LOTB.printPreorder();
 	}
 
