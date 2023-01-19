@@ -15,10 +15,10 @@ public class BFS_Shortest_Path {
 		}														// 
 	}
 
-	public void addEdges(int v1, int v2, int cost)
+	public void addEdges(int v1, int v2)
 	{
-		map.get(v1).put(v2, cost);
-		map.get(v2).put(v1, cost);
+		map.get(v1).put(v2, 6);
+		map.get(v2).put(v1, 6);
 	}
 
 
@@ -122,8 +122,7 @@ public class BFS_Shortest_Path {
 			{
 				int v1 = sc.nextInt();
 				int v2 = sc.nextInt();
-				int cost = sc.nextInt();
-				algo.addEdges(v1, v2, cost);
+				algo.addEdges(v1, v2);
 			}
 			
 			int src = sc.nextInt();
