@@ -1,0 +1,29 @@
+Given an undirected weighted graph with V nodes and E edges , find the weight of the minimum spanning tree. The IDs of the nodes are between 0 and n-1 inclusive.
+
+
+Note : Try using both Kruskal and Prim's Algorithm for this problem
+
+Input Format
+First line contains two integers V and E.
+Next E lines contain three space separated integers - u ,v and w
+u and v are the nodes , w = weight of edge
+
+Constraints
+1 <= V <= 10000
+1 <= E <= 100000
+0 <= Weight of each edge <= 10000
+
+Output Format
+Display a single integer denoting the total weight of the minimum spanning tree.
+
+Sample Input
+4 5
+0 1 10
+1 2 15
+0 2 5
+3 1 2
+3 2 40
+Sample Output
+17
+Explanation
+The edge between 2 & 3 with weight=15 and the edge between 3 & 4 with weight = 40 will not be a part of the final MST. The total weight of the remaining edges is 17.
